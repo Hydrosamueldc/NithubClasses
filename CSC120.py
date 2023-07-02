@@ -1,34 +1,34 @@
-# for i in range(0,10):
-#     print("*" * 50,end="\n")
+for i in range(0,10):
+    print("*" * 50,end="\n")
 
-# for i in range(30):
-#     if i < 20:
-#         print('*' * i)
-#         i +=1
+for i in range(30):
+    if i < 20:
+        print('*' * i)
+        i +=1
 
-# i=20
-# n=0
-# for i in range(30):
-#     if i < 20:
-#         print(i, i+n, i)
-#         i +=1
-#         n +=1
-# else:
-#     print("the end")
+i=20
+n=0
+for i in range(30):
+    if i < 20:
+        print(i, i+n, i)
+        i +=1
+        n +=1
+else:
+    print("the end")
 
-# from math import sqrt,sin,cos,degrees
-# x=30
-# y=degrees(x)
-# print(sqrt(36))
-# print(cos(y))
-# print(sin(y))
+from math import sqrt,sin,cos,degrees
+x=30
+y=degrees(x)
+print(sqrt(36))
+print(cos(y))
+print(sin(y))
 
 
 
-# from random import randint
-# for i in range(50):
-#     x = randint(3,6)
-#     print("x is a random number between 3 and 6:", x)
+from random import randint
+for i in range(50):
+    x = randint(3,6)
+    print("x is a random number between 3 and 6:", x)
 
 
 

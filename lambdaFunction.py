@@ -1,35 +1,35 @@
-# print((lambda x : 2 * x)(2))
+print((lambda x : 2 * x)(2))
 
 
-# def add_num(x,y):
-#     return x+y
-# print(add_num(6,7))
+def add_num(x,y):
+    return x+y
+print(add_num(6,7))
 
 
-# print((lambda x,y : x+y)(7,7))
+print((lambda x,y : x+y)(7,7))
 
-# add_num = lambda x,y : x+y
-# print(add_num(8,9))
+add_num = lambda x,y : x+y
+print(add_num(8,9))
 
 
-# def mx(x,y):
-#     if x > y:
-#         return x
-#     else:
-#         return y
+def mx(x,y):
+    if x > y:
+        return x
+    else:
+        return y
     
-# print(mx(8,9))
+print(mx(8,9))
 
 
-# mx= lambda x,y: x if x>y else y
-# print(mx(6.6,4))
+mx= lambda x,y: x if x>y else y
+print(mx(6.6,4))
 
 
 
-# #### MAP FUNCTON 
-# def sqr_num(lst1):
-#     lst2 = []
-#     for num in lst1:
+#### MAP FUNCTON 
+def sqr_num(lst1):
+    lst2 = []
+    for num in lst1:
 #         lst2.append(num ** 2)
 #     return lst2
 
